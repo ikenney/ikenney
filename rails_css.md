@@ -1,8 +1,10 @@
-** Rails CSS **
+Rails CSS
+=========
 
 This document describes how I plan to manage css on new rails projects.
 
-*** Directory structure ***
+Directory structure
+-------------------
 
 
     /app 
@@ -25,7 +27,8 @@ This document describes how I plan to manage css on new rails projects.
 * /styleshees/embeded - contains (minimal) style definitions to embed diectly within a page (to allow correct rendering before the appliction stylesheet has been downloaded).
 * /stylesheets/includes - contains all the scss mixins and variable definitions
 
-*** Including stylesheets in layouts ***
+Including stylesheets in layouts
+--------------------------------
 
 include stylesheets via javascript before the losing body tag 
 (https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery)
